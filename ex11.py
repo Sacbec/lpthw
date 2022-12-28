@@ -1,0 +1,46 @@
+print("How old are you?", end = ' ')
+age = input()
+print("How tall are you?", end = ' ')
+height = input()
+print("How much do you weight?", end = ' ')
+weight = input()
+
+print(f"So, you're {age} old, {height} tall and {weight} heavy.")
+
+#----
+# other ways to use input
+nombre = input("¿cual es tu nombre?: ")
+
+#---- preguntas para conocer a alguien 
+
+print("Pasatiempo favorito?", end = ' ')
+pasatiempo = input()
+print("Crees en el amor a primera vista?", end = ' ')
+creencia = input()
+print("Cual es tu comida favorita?", end = ' ')
+comida = input()
+print("Estacion favorita del año?", end = ' ')
+estacion = input()
+print("Ciudad o campo?", end = ' ')
+respuesta = input()
+print("Comida rapida favorita?", end = ' ')
+comida = input()
+print("Te gustaria tener un superpoder?", end = ' ')
+superpoder = input()
+print("Viajarias al futuro o al pasado?", end = ' ')
+viaje = input()
+print("El secreto mas grande que tienes?", end = ' ')
+secreto = input()
+print("Perros o gatos?", end = ' ')
+eleccion = input()
+print("Si tuvieras mucho dinero lo ahorrarias o lo gastarias?", end = ' ')
+dinero = input()
+print("Tocas algun instrumento?", end = ' ')
+instrumento = input()
+print("Te casarias?", end = ' ')
+casarse = input()
+print("Bailar o cantar?", end = ' ')
+eleccion = input()
+print("Playa o bosque?", end = ' ')
+eleccion = input()
+
