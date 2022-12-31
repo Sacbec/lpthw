@@ -11,9 +11,12 @@ input("?")
 
 print("Opening the file...")
 target = open(filename, 'w') # abre el archivo para escribir sobre el y primero lo da truncate
+# nota: open en modo 'w' escribe pero primero hace un truncate al archivo
 
 print("Truncating the file. Goodbye!")
 target.truncate() # ya esta abierto el archivo, le esta dando truncate 
+# explicitamente puedo hacerle truncate al archivo, pero cuando lo abri con el modo "w" tambien
+# ya le hizo truncate
 
 print("Now I'm going to ask you for three lines.")
 
