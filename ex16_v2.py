@@ -15,14 +15,10 @@ line2 = input("ingresa la segunda inea: ")
 line3 = input("ingresa la tercera linea: ")
 print(space)
 
+all = line1 + space + line2 + space + line3 + space 
 
+file.write(all)
 
-file.write(line1)
-file.write(space)
-file.write(line2)
-file.write(space)
-file.write(line3)
-file.write(space)
 
 
 
