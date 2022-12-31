@@ -3,7 +3,7 @@ from sys import argv
 
 script, filename = argv # nombre del script y nombre del archivo a leer
 
-file = open(filename) # crear objeto open 
+file = open(filename, 'r') # crear objeto open. El modo por defecto es 'r' de read.
 content = file.read()
 
 print(content)
