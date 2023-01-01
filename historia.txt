@@ -1,7 +1,9 @@
 Esta es la historia de:
 Sacbec Hernandez. 
 
-Comenzo con un curso de programación ofrecido por Sergio en la facultad de ciencias, ahi vio la introduccion a python. 
+Primero:
+Comenzo con un curso de programación ofrecido por Sergio en la facultad de ciencias.
+Entre las cosas que se vieron fueron: la introduccion a python. 
 
 Tiene la edad de 28, casi 29 años. Esta muy cerca de cumplir los 30. D:
 
