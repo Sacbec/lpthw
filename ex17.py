@@ -14,7 +14,7 @@ indata = in_file.read() # leo el objeto open
 
 print(f"The input file is {len(indata)} bytes long") # longitud del archivo
 
-print(f"Does the output file exist? {exists(to_file)}") # comprueba si existe? ¿en donde revisa?
+print(f"Does the output file exist? {exists(to_file)}") # Comprueba si existe. ¿en donde revisa?
 # True si existe, False si no existe
 print("Ready, hit RETURN to continue, CTRL-C to abort.")
 input() # pausa para decidir si continuar o cancelar 
