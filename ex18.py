@@ -25,5 +25,5 @@ print_one("First!") # llamo a la funcion print_one, solo recibe un parametro, ob
 # todos los parametros los he pasado como strings-> porque son strings. 
 print_none() # llamo a la funcion, le pongo sus parentesis aunque no reciba argumentos. 
 
-print("Experimento: pasar 3 argumentos a print_two que solo recibe dos variables...")
-print_two('uno', 'dos', 'tres')
+# print("Experimento: pasar 3 argumentos a print_two que solo recibe dos variables...")
+# print_two('uno', 'dos', 'tres')
