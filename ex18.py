@@ -19,7 +19,11 @@ def print_none(): # funcion que se llama print_none y no recibe argumentos
 print_two("Zed", "Shaw") # llamo a la funcion print_two, le paso dos parametros
 # ¿que pasa si le doy mas? # pienso que no importa porque solo tomara los primeros dos y los 
 # asiganara a variables 
+# si le doy mas tambien truena. <-
 print_two_again("Zed", "Shaw") # llamo a la funcion print_two_again y le paso dos parametros
 print_one("First!") # llamo a la funcion print_one, solo recibe un parametro, observar que 
 # todos los parametros los he pasado como strings-> porque son strings. 
 print_none() # llamo a la funcion, le pongo sus parentesis aunque no reciba argumentos. 
+
+print("Experimento: pasar 3 argumentos a print_two que solo recibe dos variables...")
+print_two('uno', 'dos', 'tres')
