@@ -35,3 +35,17 @@ print("First let's print the whole file:\n")
 
 print_all(current_file) # para llamar a una funcion necesito su nombre, abrir parentesis, colocar
 # el o los parametros de los que depende, y cerrar parentesis. 
+
+print("Now let's rewind, kind of like a tape.")
+
+rewind(current_file) # para llamar a una funcion escribo su nombre, abro parentesis, le paso los 
+# argumentos de los que depende ( con los que fue creada), y cierro parentesis. 
+
+print("Let's print three lines:")
+
+current_line = 1 
+
+print_a_line(current_line, current_file) # para llamar a una funcion necesito escribir su nombre, 
+# abrir parentesis, pasarle los parametros de los que depende (con los que fue creada) y cerrar
+# parentesis
+# en este caso contiene un metodo .readline(), entonces el parametro f debe ser un objeto open
