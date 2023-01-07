@@ -55,3 +55,10 @@ current_line += 1 # es decir que cuando llegue aqui la ejecucion, tomara el valo
 print_a_line(current_line, current_file) # para llamar a una funcion necesito escribir su nombre
 # abrir parentesis, pasarle los parametros de los que depende ( con los que fue creada) y cerrar 
 # parentesis 
+
+current_line += 1
+print_a_line(current_line, current_file) # para llamar a una funcion necesito escribir su nombre
+# abrir parentesis, pasar los parametros de los que depende la funcion, por ejemplo los parametro con
+# los que fue creada, y despues cierro parentesis. 
+# en este caso uno de los parametros tiene el metodo .readline() por lo tanto el parametro necesita
+# ser un open object para que pueda ejecutarse de manera adecuada. 
