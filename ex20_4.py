@@ -49,3 +49,9 @@ print_a_line(current_line, current_file) # para llamar a una funcion necesito es
 # abrir parentesis, pasarle los parametros de los que depende (con los que fue creada) y cerrar
 # parentesis
 # en este caso contiene un metodo .readline(), entonces el parametro f debe ser un objeto open
+
+current_line += 1 # es decir que cuando llegue aqui la ejecucion, tomara el valor que tiene 
+# current line y le sumara 1
+print_a_line(current_line, current_file) # para llamar a una funcion necesito escribir su nombre
+# abrir parentesis, pasarle los parametros de los que depende ( con los que fue creada) y cerrar 
+# parentesis 
