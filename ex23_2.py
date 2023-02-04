@@ -39,7 +39,7 @@ def print_line(line, encoding, errors):
     cooked_string = raw_bytes.decode(encoding, errors = errors ) # decode 
     # tanto .encode() como .decode() depende de: encoding y errors
 
-    print(raw_bytes, "<==>", cooked_string) # aqui estoy comparando ambos metodos, .encode(), .decode()
+    print(" encoding: ", raw_bytes, "<==>", "decode: ", cooked_string) # aqui estoy comparando ambos metodos, .encode(), .decode()
 
 languages = open("languages.txt", encoding = "utf-8")
 
@@ -72,6 +72,6 @@ main(languages, input_encoding, error)
  # esta funcion imprime ambos resultados .decode() y .encode()
 
  # ahora main vuelve a ejecutar a main hasta que line ya no tenga contenido, es decir line = 0
- 
+
 
 
