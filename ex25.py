@@ -19,7 +19,7 @@ def print_first_word(words):
     """Prints the first word after popping it off."""
     word = words.pop(0) # gets the word of that index, it needs a list
     print(word) 
-    print("esta entrando")
+    
 
 def print_last_word(words):
     """Prints the last word after poppin it off."""
