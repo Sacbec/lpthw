@@ -18,12 +18,14 @@ def sort_words(words):
 def print_first_word(words):
     """Prints the first word after popping it off."""
     word = words.pop(0) # gets the word of that index, it needs a list
-    return word 
+    print(word) 
+    print("esta entrando")
 
 def print_last_word(words):
     """Prints the last word after poppin it off."""
     word = words.pop(-1)
-    return word 
+    print(word) 
+
 def sort_sentence(sentence):
     """Takes in a full sentence and returns the sorted words."""
     words = break_words(sentence)
