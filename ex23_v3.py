@@ -18,12 +18,13 @@ def main(language_file, encoding, errors):
 def print_line(line, encoding, errors):
     next_lang = line.strip() # usa el parametro que le pase para quitarle los espacios en blanco 
                             # del inicio y del final
-    raw_bytes = next_lang.encode(encoding, errors = errors) # le aplica encode 
-    cooked_string = raw_bytes.decode(encoding, errors = errors ) # lo que esta encode ahora lo decode
+    raw_bytes = next_lang.encode(encoding, errors = errors) # entendible para la compu 
+    cooked_string = raw_bytes.decode(encoding, errors = errors ) # humanamente entendible 
 
 
-    print("raw: ", next_lang, "encode: ", raw_bytes, "<==>","decode: ",  cooked_string) # 
+    print("raw___: ", next_lang, "encode___: ", raw_bytes, "<==>","decode___: ",  cooked_string) # 
 
-languages = open("languages.txt", encoding = "utf-8")
+# languages = open("languages.txt", encoding = "utf-8")
+languages = open("big5_testing.txt", encoding = "big5")
 
 main(languages, input_encoding, error)
