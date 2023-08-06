@@ -1,6 +1,6 @@
 from sys import argv
 
-# crear un archivo en la carpeta de downloads
+# crear un archivo en mi computadora en la carpeta de downloads
 
 script = argv 
 
